@@ -1,0 +1,62 @@
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #1f2937;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+main {
+    background-color: #1f2937;
+}
+
+.hero {
+    display: flex;
+    padding: 50px;
+}
+
+.hero-secondary-text {
+    display: flex;
+    margin-right: 175px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 5px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-color: #3882f6;
+}

@@ -163,3 +163,15 @@ h2 {
     margin-top: 20px;
     border-color: #f9faf8;
 }
+
+.footer-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -1,12 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #1f2937;
-padding-left: 50px;
-padding-right: 50px;
-padding-top: 10px;
-padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .logo-text {
@@ -59,4 +64,40 @@ button {
     color: #f9faf8;
     font-weight: bold;
     border-color: #3882f6;
+}
+
+.hero-image img {
+    display: flex
+    height: 388px;
+    width: 640px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.individual img {
+    width: 300px;
+    height: auto;
+}
+
+.individual,.cards,.img-caption {
+    display: flex;
+}
+
+.individual {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.information {
+    margin-left: -50px;
+    margin-right: 15px;
 }
